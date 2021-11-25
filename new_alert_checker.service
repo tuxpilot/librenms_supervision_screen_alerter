@@ -1,0 +1,12 @@
+# A installer dans /etc/systemd/system
+[Unit]
+Description=librenms_new_alert_check_sound_alert
+
+[Service]
+WorkingDirectory=/opt/librenms_addon_scripts/
+ExecStart=/bin/bash new_alert_checker.sh
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
