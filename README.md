@@ -24,12 +24,12 @@ Go to your librenms instance and log in the WebUI with an admin account.
 Go to the 'alert' tab and click on 'alert transport'
 Create a new alert transport and fill up the new alert transport with the following informations : 
 ___________________________
-  Transport name: <your transport name>
-  Transport type: Syslog
-  Default Alert: YES
-  Host: <The ip of the device hosting the script>
-  Port: 514
-  Facility: criticity
+  Transport name: <your transport name> 
+  Transport type: Syslog 
+  Default Alert: YES 
+  Host: <The ip of the device hosting the script> 
+  Port: 514 
+  Facility: criticity 
 ___________________________
 
 
